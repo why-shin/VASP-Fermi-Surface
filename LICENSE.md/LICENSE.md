@@ -1,7 +1,6 @@
 MIT License
 
-Copyright (c) 2017 Materials Theory and Design Group
-Author: Yongjin Shin
+Copyright (c) 2017 Materials Theory and Design Group; Author: Yongjin Shin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
