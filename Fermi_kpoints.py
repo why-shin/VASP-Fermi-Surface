@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Apr 29 23:07:02 2017
-
 @author: Yongjin
-
 How to use:
     $ python Fermi_kpoints.py KX KY KZ
     KX, KY, and KZ are number of points along each reciprocal axis
@@ -19,9 +17,9 @@ print ("### Author: Yongjin Shin\n")
 
 #Case of different arguments are given.
 if len(sys.argv) == 1:
-    kx=6
-    ky=12
-    kz=4
+    kx=9
+    ky=9
+    kz=9
     print("No input argument is given. KX,KY,KZ=9")
 elif len(sys.argv) == 2:
     kx=int(sys.argv[1])
@@ -58,4 +56,3 @@ for i in range(np.shape(data_array)[0]):
 out_file.close()
 
 print ("Done.")
-
